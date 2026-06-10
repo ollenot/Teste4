@@ -1,0 +1,12 @@
+const senhaBanco = "teste";
+
+function main() {
+    const senha = prompt("Digite a senha:");
+    if (senha === senhaBanco) {
+        alert("Acesso concedido!");
+    } else {
+        alert("Acesso negado!");
+    }
+}
+
+main();
